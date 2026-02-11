@@ -13,10 +13,10 @@ todos:
     status: completed
   - id: m3_api_design_doc
     content: Write and log CRD/API spec (fields, bounds, status shape) and choose namespaced vs cluster-scoped report strategy.
-    status: pending
+    status: completed
   - id: m4_execution_model_decision
     content: Choose and log execution model (RequeueAfter controller vs single-ticker runnable).
-    status: pending
+    status: completed
   - id: m5_generate_api_controller
     content: Generate API + controller skeleton and run locally against k3s (`make run`).
     status: pending

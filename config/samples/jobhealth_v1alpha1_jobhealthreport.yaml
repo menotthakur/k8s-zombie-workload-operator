@@ -1,0 +1,9 @@
+apiVersion: jobhealth.ops.thakur.dev/v1alpha1
+kind: JobHealthReport
+metadata:
+  labels:
+    app.kubernetes.io/name: operator-101
+    app.kubernetes.io/managed-by: kustomize
+  name: jobhealthreport-sample
+spec:
+  # TODO(user): Add fields here

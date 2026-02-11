@@ -8,4 +8,14 @@ layout:
 - go.kubebuilder.io/v4
 projectName: operator-101
 repo: github.com/menotthakur/k8s-zombie-workload-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: ops.thakur.dev
+  group: jobhealth
+  kind: JobHealthReport
+  path: github.com/menotthakur/k8s-zombie-workload-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"
